@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: right;
+}
+
+.nav-menu {
+  justify-content: center;
+  gap: 2rem;
+  list-style: none; 
+  padding: 0;
+}
+
+@media (min-width: 640px) {
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.album {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem;
+}
+
+footer {
+  padding: 1.5rem;
+}
